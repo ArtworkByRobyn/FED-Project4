@@ -14,21 +14,41 @@
   
   .default {
     background-color: $color-link;
+    &:hover {
+      color: $color-link;
+      background-color: $color-link-light;
+    }
   }
   
   .error {
     background-color: $color-error;
+    &:hover {
+      color: $color-error;
+      background-color: $color-error-light;
+    }
   }
-  
+
   .info {
     background-color: $color-info;
+    &:hover {
+      color: $color-info;
+      background-color: $color-info-light;
+    }
   }
   
   .success {
     background-color: $color-suc;
+    &:hover {
+      color: $color-suc;
+      background-color: $color-suc-light;
+    }
   }
   
   .warning {
     background-color: $color-warn;
+    &:hover {
+      color: $color-warn;
+      background-color: $color-warn-light;
+    }
   }
   
