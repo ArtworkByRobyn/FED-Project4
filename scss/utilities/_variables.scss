@@ -1,0 +1,22 @@
+// Colors
+
+$color-font: #777777;
+$color-primary-clt: #58e1c1;
+$color-link: #51ddfc;
+$color-img-brdr: #cccccc;
+$color-white: #ffffff;
+$color-error: #e4757a;
+$color-info: #927bc1;
+$color-suc: #63cc82;
+$color-warn: #fd7856;
+
+$color-primary-light: lighten($color-primary-clt, 25%);
+
+
+// Media Query Breakpoints
+
+$brk-wide : '(min-width: 768px)' ;
+
+// Font Stacks
+
+
